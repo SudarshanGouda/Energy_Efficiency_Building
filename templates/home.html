@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Energy Consumption Prediction</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert alert-success">Energy Consumption Prediction</h4>
+            <hr>
+            <p>
+                <div class="alert alert-success">
+                    <h3>Context</h3>
+                    <p>This study looked into assessing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters.
+                        We perform energy analysis using 12 different building shapes simulated in Ecotect.
+                        The buildings differ with respect to the glazing area, the glazing area distribution, and the orientation, amongst other parameters.
+                        We simulate various settings as functions of the afore-mentioned characteristics to obtain 768 building shapes.
+                        The dataset comprises 768 samples and 8 features, aiming to predict two real valued responses.
+                        It can also be used as a multi-class classification problem if the response is rounded to the nearest integer.<p>
+        </div>
+        <div class="container text-center">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4CVM_Q7VfhK_oDTKa7GUoAWRpJv0Ia2m3i5JnogAV_nJ0FIrNRF7xLhswXDsSK4c4LQ&usqp=CAU">
+
+        </div>
+
+
+        <h4 class="text-center mt-3 my-3">Estimate Your BodyFat By Filling in the details as given below</title>
+        </h4>
+
+        <div class="container my-4">
+
+            <form action="/" method="POST">
+
+                <!-- Relative_Compactness -->
+
+                <div class="form-group">
+                    <label for="Relative_Compactness">Enter Relative_Compactness</label>
+                    <input type="text" class="form-control" id="Relative_Compactness" name="Relative_Compactness">
+                </div>
+
+                <!-- Surface_Area -->
+
+                <div class="form-group">
+                    <label for="Surface_Area">Enter Surface_Area</label>
+                    <input type="text" class="form-control" id="Surface_Area" name="Surface_Area">
+                </div>
+
+                <!-- Wall_Area -->
+
+                <div class="form-group">
+                    <label for="Wall_Area">Enter Wall_Area</label>
+                    <input type="text" class="form-control" id="Wall_Area" name="Wall_Area">
+                </div>
+
+                <!-- Roof_Area -->
+
+                <div class="form-group">
+                    <label for="Roof_Area">Enter Roof_Area</label>
+                    <input type="text" class="form-control" id="Roof_Area" name="Roof_Area">
+                </div>
+
+                <!-- Overall_Height -->
+
+                <div class="form-group">
+                    <label for="Overall_Height">Enter Overall_Height</label>
+                    <input type="text" class="form-control" id="Overall_Height" name="Overall_Height">
+                </div>
+
+                <!-- Orientation -->
+
+                <div class="form-group">
+                    <label for="Orientation">Enter Orientation</label>
+                    <input type="text" class="form-control" id="Orientation" name="Orientation">
+                </div>
+
+                <!-- Glazing_Area -->
+
+                <div class="form-group">
+                    <label for="Glazing_Area">Enter Knee</label>
+                    <input type="text" class="form-control" id="Glazing_Area" name="Glazing_Area">
+                </div>
+
+                <div class="form-group">
+                    <label for="Glazing_Area_Distribution">Enter Knee</label>
+                    <input type="text" class="form-control" id="Glazing_Area_Distribution" name="Glazing_Area_Distribution">
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-primary" type="submit">Predict</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
